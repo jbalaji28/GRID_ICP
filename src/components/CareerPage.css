@@ -1,0 +1,142 @@
+/* Basic reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for the whole page */
+.career-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Header styling */
+.career-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.career-header h1 {
+  font-size: 36px;
+  color: #0044cc;
+}
+
+.career-header p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Job listings section */
+.job-listings {
+  margin-bottom: 40px;
+}
+
+.job-listings h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 20px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.job-card h3 {
+  font-size: 24px;
+  color: #0044cc;
+}
+
+.job-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.apply-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0044cc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.apply-button:hover {
+  background-color: #0033aa;
+}
+
+/* Company culture section */
+.company-culture {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.company-culture h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.company-culture p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.company-culture ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-culture li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Application info section */
+.application-info {
+  text-align: center;
+}
+
+.application-info h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.application-info p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.application-info a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+.application-info a:hover {
+  text-decoration: underline;
+}

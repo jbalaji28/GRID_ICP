@@ -1,0 +1,103 @@
+.contact-container {
+    position: relative;
+    padding: 10rem;
+    max-width: 2000px;
+    margin: 0 auto;
+    background-image: url('https://www.phoenixsolarpanelsystems.com/wp-content/uploads/2022/10/My-project-copy-31-1.jpg'); /* URL to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    color: #fff; /* Ensure text is readable against the background */
+  }
+  
+  .contact-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .contact-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    z-index: 2;
+  }
+  
+  .contact-form,
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact-form h2,
+  .contact-info h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-media {
+    margin-top: 1rem;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  

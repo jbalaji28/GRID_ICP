@@ -1,0 +1,211 @@
+/* Homepage.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically center */
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd; /* Subtle bottom border for separation */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+}
+
+.logo-image {
+  width: 50px; /* Adjust size of the logo */
+  height: auto;
+  margin-right: 15px; /* Space between logo and text */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-orange {
+  color: orange;
+}
+
+.logo-white {
+  color: #333; /* Changed to a darker color for better contrast */
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  height: 500px; /* Fixed height for the hero section */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  overflow: hidden; /* Ensures no overflow */
+}
+
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the container */
+  z-index: -1; /* Place the video behind the content */
+}
+
+.hero-content {
+  position: relative; /* Ensure text is on top of the video */
+  z-index: 1; /* Bring text above the video */
+  color: white; /* Ensure text is readable */
+  text-shadow: 2px 2px 4px rgba(255, 254, 254, 0.6); /* Optional: Improve text readability */
+}
+
+.highlight {
+  color: orange;
+}
+
+.social-media-links {
+  display: none; /* Hide original social media links section */
+}
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  background-color: orange; /* Change to orange background */
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px; /* Fixed width for the sidebar */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle lift effect */
+}
+
+.sidebar-link {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  transition: width 0.3s; /* Smooth transition */
+  width: 50px; /* Small width */
+  border-radius: 5px;
+}
+
+.sidebar-link:hover {
+  width: 150px; /* Expand width on hover */
+}
+
+.sidebar-link.facebook {
+  background-color: #3b5998;
+}
+
+.sidebar-link.linkedin {
+  background-color: #0077b5;
+}
+
+.sidebar-link.instagram {
+  background-color: #e4405f;
+}
+
+.sidebar-link.twitter {
+  background-color: #1da1f2;
+}
+
+.impact-stats {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.impact-stats h2 {
+  margin-bottom: 30px;
+  font-size: 24px; /* Increased font size for better readability */
+  font-weight: normal;
+  color: #333;
+}
+
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  max-width: 250px; /* Fixed width for card */
+  text-align: center;
+  overflow: hidden; /* Ensures no overflow of content */
+}
+
+.stat-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.stat-card h3 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: #ff6600;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.cta {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff; /* White background for contrast */
+  border-top: 1px solid #ddd; /* Subtle top border for separation */
+}
+
+.cta h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta .btn-primary {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #444;
+}
