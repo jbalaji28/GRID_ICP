@@ -57,16 +57,7 @@ Once the application is up and running, you can:
 - Receive notifications for critical events (e.g., battery level warnings, system failures).
 - Manage battery health and energy storage settings.
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request with a detailed description of your changes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-- **Your Name**: [email@example.com](mailto:balajiso2803@gmail.com)
-- **GitHub**: [@your-username](https://github.com/jbalaji28)
+- **Your Name**: [@balajiso2803@gmail.com](mailto:balajiso2803@gmail.com)
+- **GitHub**: [@jbalaji28](https://github.com/jbalaji28)
